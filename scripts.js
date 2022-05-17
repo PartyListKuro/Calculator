@@ -47,8 +47,9 @@ function ShowNum(Num){
         }
         else if(text =='=' && OnDisplay.textContent.split(' ')[2] !== ''){
             displayanswer = operate(OnDisplay.textContent.split(' ')[0],OnDisplay.textContent.split(' ')[2],OnDisplay.textContent.split(' ')[1])
-            OnDisplay.textContent = `${displayanswer}`;
+            OnDisplay.textContent = `${displayanswer} `;
             DisplayProp.appendChild(OnDisplay).classList.add('ops');
+            Num1 = 0;
             return console.log('socksss')
         }
         else if (text != '=' && OnDisplay.textContent.split(' ')[2] <= 0 || text != '=' && OnDisplay.textContent.split(' ')[2]>= 0){
