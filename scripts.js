@@ -56,7 +56,7 @@ function ShowNum(Num){
         console.log(Num2.toString)
         displayanswer = operate(Num1,Num2,text)
         Num1 = displayanswer;
-        OnDisplay.textContent = `${displayanswer} ${text}`;
+        OnDisplay.textContent = `${displayanswer} ${text} `;
         return console.log('sockss')
   
 
