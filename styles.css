@@ -1,0 +1,94 @@
+.buttons{
+    height: 500px;
+    width: 400px;
+    border: 3px solid;
+    border-color: black;
+    display:grid;
+}
+.display{
+    height: 100px;
+    width: 400px;
+    border: 3px solid;
+    border-color: black;
+    display:grid;
+    position: relative;
+
+}
+.answers{
+    position:absolute;
+    font-size: 40px;
+    right:0;
+    bottom:0;
+    padding-right: 10px;
+
+}
+
+.ops{
+    padding-left: 10px;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+body{
+    padding-top: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button:focus {
+  color: #171e29;
+}
+
+button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+
+
+.first{
+    grid-column: 1; 
+}
+.second{
+    grid-column: 2; 
+}
+.third{
+    grid-column: 3; 
+}
+.fourth{
+    grid-column: 4; 
+}
